@@ -712,5 +712,314 @@ The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (ft/service-redesign)
 $ git push
 Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
 To https://github.com/Kamikazi-Deborah/Gym-Git-Exercise-Solutions.git
-   e1234c9..77ce5fe  ft/service-redesign -> ft/service-redesign
->>>>>>> 1508e05e09dd0fb2c55bf2e28cd9efa5814b38ea
+   e1234c9..77ce5fe  ft/service-redesign -> ft/service-redesig
+
+BUNDEL 4(exercise1);
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (ft/faq-page)
+$ git log 
+commit 3d16c8543b98639c441d468ce665dbfb2f387503 (HEAD -> ft/faq-page, origin/ft/faq-page)
+Author: Kamikazi-Deborah <deborahkamikazi9@gmail.com>
+Date:   Mon Apr 22 20:52:10 2024 +0200
+
+    the change on faq
+
+commit 7165d4eb458ea7d0d595739cb0f326f74b7437ed (origin/ft/contact-page, ft/contact-page)
+Author: Kamikazi-Deborah <deborahkamikazi9@gmail.com>
+Date:   Mon Apr 22 20:42:33 2024 +0200
+
+    the change on contact page
+
+commit 37aa241624ff24a451530ac3b0018c809626e914
+Author: Kamikazi-Deborah <deborahkamikazi9@gmail.com>
+Date:   Mon Apr 22 20:15:33 2024 +0200
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (ft/faq-page)
+$ git add .
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (ft/faq-page)
+$ git commit -m 'another change'
+[ft/faq-page fd4c437] another change
+ 2 files changed, 1 insertion(+), 194 deletions(-)
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (ft/faq-page)
+$ git branch ft/home-page-redesign
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (ft/faq-page)
+$ git checkout main
+M       README.md        
+Switched to branch 'main'
+Your branch is behind 'origin/main' by 5 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (main)
+$ git add .
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (main)
+$ git commit -m 'another changes here '
+[main 1b237ec] another changes here
+ 2 files changed, 48 insertions(+)
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (main)
+$ git push
+To https://github.com/Kamikazi-Deborah/Gym-Git-Exercise-Solutions.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Kamikazi-Deborah/Gym-Git-Exercise-Solutions.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (main)
+$  git push -u origin main
+To https://github.com/Kamikazi-Deborah/Gym-Git-Exercise-Solutions.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Kamikazi-Deborah/Gym-Git-Exercise-Solutions.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (main)
+$ git pull 
+Auto-merging README.md
+CONFLICT (content): Merge conflict in README.md
+Automatic merge failed; fix conflicts and then commit the result.
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (main|MERGING)
+$ git push -u origin main
+To https://github.com/Kamikazi-Deborah/Gym-Git-Exercise-Solutions.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Kamikazi-Deborah/Gym-Git-Exercise-Solutions.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (main|MERGING)
+$ git push
+To https://github.com/Kamikazi-Deborah/Gym-Git-Exercise-Solutions.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Kamikazi-Deborah/Gym-Git-Exercise-Solutions.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (main|MERGING)
+$ git add .
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (main|MERGING)
+$ git commit -m "another change
+> 
+> git commit -m "another change
+fatal: cannot do a partial commit during a merge.
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (main|MERGING)
+$ git commit -m 'another  change '
+[main 9be189e] another  change
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (main)
+$ git push
+Enumerating objects: 13, done.
+Counting objects: 100% (12/12), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 1.23 KiB | 158.00 KiB/s, done.
+Total 7 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 3 local objects.
+To https://github.com/Kamikazi-Deborah/Gym-Git-Exercise-Solutions.git
+   1508e05..9be189e  main -> main
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (main)
+$ git checkout ft/home-page-redesign
+Switched to branch 'ft/home-page-redesign'
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (ft/home-page-redesign)
+$ git rebase main
+Auto-merging README.md
+CONFLICT (content): Merge conflict in README.md
+error: could not apply fd4c437... another change
+hint: Resolve all conflicts manually, mark them as resolved with
+hint: "git add/rm <conflicted_files>", then run "git rebase --continue".
+hint: You can instead skip this commit: run "git rebase --skip".
+hint: To abort and get back to the state before "git rebase", run "git rebase --abort".
+Could not apply fd4c437... another change
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (ft/home-page-redesign|REBASE 2/2)
+$ git rebase main
+fatal: It seems that there is already a rebase-merge directory, and
+I wonder if you are in the middle of another rebase.  If that is the
+case, please try
+        git rebase (--continue | --abort | --skip)
+If that is not the case, please
+        rm -fr ".git/rebase-merge"
+and run me again.  I am stopping in case you still have something
+valuable there.
+
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (ft/home-page-redesign|REBASE 2/2)
+$ git add .
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (ft/home-page-redesign|REBASE 2/2)
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (ft/home-page-redesign|REBASE 2/2)
+$ git checkout main
+error: Your local changes to the following files would be overwritten by checkout:
+        README.md
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (ft/home-page-redesign|REBASE 2/2)
+$ git commit -m 'readme commits'
+interactive rebase in progress; onto 9be189e
+Last commands done (2 commands done):
+   pick 3d16c85 the change on faq
+   pick fd4c437 another change
+No commands remaining.
+You are currently editing a commit while rebasing branch 'ft/home-page-redesign' on '9be189e'.
+  (use "git commit --amend" to amend the current commit)
+  (use "git rebase --continue" once you are satisfied with your changes)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (ft/home-page-redesign|REBASE 2/2)
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (ft/home-page-redesign|REBASE 2/2)
+$ git commit -m 'another change'
+interactive rebase in progress; onto 9be189e
+Last commands done (2 commands done):
+   pick 3d16c85 the change on faq
+   pick fd4c437 another change
+No commands remaining.
+You are currently editing a commit while rebasing branch 'ft/home-page-redesign' on '9be189e'.
+  (use "git commit --amend" to amend the current commit)
+  (use "git rebase --continue" once you are satisfied with your changes)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (ft/home-page-redesign|REBASE 2/2)
+$ git add .
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (ft/home-page-redesign|REBASE 2/2)
+$ git commit -m 'another change'
+[detached HEAD 1caf553] another change
+ 1 file changed, 158 insertions(+)
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (ft/home-page-redesign|REBASE 2/2)
+$ git checkout main
+Warning: you are leaving 3 commits behind, not connected to
+any of your branches:
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (ft/home-page-redesign|REBASE 2/2)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (ft/home-page-redesign|REBASE 2/2)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Last commands done (2 commands done):
+   pick 3d16c85 the change on faq
+   pick fd4c437 another change
+No commands remaining.
+You are currently editing a commit while rebasing branch 'ft/home-page-redesign' on '9be189e'.
+  (use "git commit --amend" to amend the current commit)
+  (use "git rebase --continue" once you are satisfied with your changes)
+
+nothing to commit, working tree clean
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (ft/home-page-redesign|REBASE 2/2)
+$ git remote add git-copy ^C
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (ft/home-page-redesign|REBASE 2/2)
+$ git remote add git-copy https://github.com/Kamikazi-Deborah/Git-Exercises.git
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (ft/home-page-redesign|REBASE 2/2)
+$ git remote
+git-copy
+origin
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (ft/home-page-redesign|REBASE 2/2)
+$ git add .
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (ft/home-page-redesign|REBASE 2/2)
+$ git commit -m 'another change'
+[main 2811a74] another change
+ 1 file changed, 1 insertion(+)
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (ft/home-page-redesign|REBASE 2/2)
+$ git push origin
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 345 bytes | 115.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Kamikazi-Deborah/Gym-Git-Exercise-Solutions.git
+   9be189e..2811a74  main -> main
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (ft/home-page-redesign|REBASE 2/2)
+$ git push git - copy
+error: src refspec - does not match any
+error: src refspec copy does not match any
+error: failed to push some refs to 'git'
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (ft/home-page-redesign|REBASE 2/2)
+$ git checkout main
+M       README.md
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (ft/home-page-redesign|REBASE 2/2)
+$ git remote add git-copy https://github.com/Kamikazi-Deborah/Git-Exercises.git
+error: remote git-copy already exists.
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (ft/home-page-redesign|REBASE 2/2)
+$ git remote
+git-copy
+origin  
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (ft/home-page-redesign|REBASE 2/2)
+$ git add home.html
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (ft/home-page-redesign|REBASE 2/2)
+$ git commit -m'changes on home page'
+[main 6c3dda0] changes on home page
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (ft/home-page-redesign|REBASE 2/2)
+$ git push origin
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 318 bytes | 106.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Kamikazi-Deborah/Gym-Git-Exercise-Solutions.git
+   2811a74..6c3dda0  main -> main
+
+The Gym@DESKTOP-3NHLQBK MINGW64 ~/myproject/GitPrijects (ft/home-page-redesign|REBASE 2/2)
+$ git push git-copy
+Enumerating objects: 49, done.
+Counting objects: 100% (49/49), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (49/49), done.
+Writing objects: 100% (49/49), 13.21 KiB | 322.00 KiB/s, done.
+Total 49 (delta 27), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (27/27), done.
+To https://github.com/Kamikazi-Deborah/Git-Exercises.git
+ * [new branch]      main -> main
